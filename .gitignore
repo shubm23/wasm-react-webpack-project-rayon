@@ -1,0 +1,31 @@
+/pkg
+/node_modules
+/dist
+# Rust build directory
+/rust-src/target/
+
+# Cargo specific files
+**/*.rs.bk
+Cargo.lock
+
+# IntelliJ / CLion / Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Byebug/Debugger output
+*.log
+
+# Other common ignores
+*.swp
+*.swo
